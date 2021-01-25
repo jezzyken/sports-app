@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sportsv2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="query_suggestions">
+        <item>Basketball</item>
+        <item>Basketball Defensive Strategy</item>
+        <item>Duration</item>
+        <item>Moving the ball</item>
+        <item>Offensive Basketball Strategy</item>
+
+
+        <item>Badminton</item>
+        <item>Badminton Guidelines</item>
+        <item>Badminton Rules"</item>
+        <item>Badminton Basic principles</item>
+        <item>Doubles Badminton Strategies</item>
+
+        <item>First aid for acute injuries in tennis</item>
+        <item>Tennis</item>
+        <item>Tennis Gear</item>
+        <item>Tennis Guidelines</item>
+        <item>Tennis Rules and Regulations</item>
+
+        <item>4 Essential First Aid Tips for Football"</item>
+        <item>Defensive Football Strategy</item>
+        <item>Offensive Football Strategy</item>
+        <item>Football</item>
+        <item>Warm-Up for Football</item>
+
+        <item>Common Youth Volleyball Injuries"</item>
+        <item>Volleyball: Guidelines</item>
+        <item>Volleyball</item>
+        <item>Warm-Up for Volleyball</item>
+        <item>Volleyball: Strategy and Team Play</item>
+
+
+
+
+
+
+    </string-array>
+</resources>

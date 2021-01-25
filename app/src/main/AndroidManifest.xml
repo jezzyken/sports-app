@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jezrelljolampong.sportsv2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="esport.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.jezrelljolampong.sportsv2" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BadmintonActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".BasketballActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".TennisActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".FootballActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".VoleyballActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".BasketballInformation"
+            android:parentActivityName=".BasketballActivity"/>
+        <activity android:name=".BadmintonInformation"
+            android:parentActivityName=".BadmintonActivity"/>
+        <activity android:name=".TennisInformation"
+            android:parentActivityName=".TennisActivity"/>
+        <activity android:name=".VolleyballInformation"
+            android:parentActivityName=".VoleyballActivity"/>
+        <activity android:name=".FootballInformation"
+            android:parentActivityName=".FootballActivity"/>
+        <activity android:name=".BookmarkActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".VideoOnlineActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".VideoOfflineActivity"
+            android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".OfflineVideoInformation"
+            android:parentActivityName=".VideoOnlineActivity"/>
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AboutActivity"
+            android:parentActivityName=".Main2Activity"
+            />
+    </application>
+
+</manifest>
